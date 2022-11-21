@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-blend-mode: color;
+    background-color: rgba(211, 211, 211, 0.863);
+    background-image: url("../pageimages/bckgrnd_pattern3.jpg");
+    background-size: 400px;
+    
+}
+
+button {
+    position: absolute;
+    margin-left: 5px;
+    width: 100px;
+}
+
+.login {
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.main-wrap {
+    padding-left: 30px;
+    margin-left: 30px;
+}
+
+// hr {
+//     border: 0;
+//     clear:both;
+//     display:block;
+//     width: 96%;               
+//     color: black;
+//     height: 2px;
+//   }
+
+.rating {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+    margin: 10px;
+    border-radius: 5px;    
+}
+
+.login-container {
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 350px;
+    // height: 100vh;
+    background-color: rgba(255, 255, 161, 0.349);
+    margin: 0px;
+}
+
+.register-container {
+    display: flex;
+    height: fit-content;
+
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 600px;
+    height: inherit;
+    background-color: rgba(255, 255, 161, 0.349);
+    margin: 0px;
+}
+
+.rim1, .rim2, .rim3, .rim4, .rim5, .rim6 {
+    display: block;
+    margin-left: 10px;
+    animation: rim 2s linear infinite;
+}
+
+ @keyframes rim {
+
+    100% {
+        rotate: 360deg;
+    }
+}

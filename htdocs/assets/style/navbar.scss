@@ -1,0 +1,17 @@
+.navbar {
+    background-image: url("../pageimages/TOP_NAVBAR_PIC.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -15px;
+    display: block;
+    
+    &-btn {
+        position: absolute;
+        bottom: 10;
+        left: 10;
+
+    }
+}

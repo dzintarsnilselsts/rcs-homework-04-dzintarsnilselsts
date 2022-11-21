@@ -1,0 +1,23 @@
+.navbar {
+  background-image: url("../pageimages/TOP_NAVBAR_PIC.jpg");
+  display: flex;
+  background-position: center;
+  height: 300px;
+  background-size: cover;
+  margin-top: -15px;
+}
+.navbar h1 {
+  text-align: center left;
+}
+.navbar p {
+  align-items: left;
+  justify-content: left;
+  color: white;
+  text-align: left;
+}
+.navbar .btn {
+  padding: 20px;
+  border: 5px;
+  border-radius: 5px;
+  position: left;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-blend-mode: color;
+  background-color: rgba(211, 211, 211, 0.863);
+  background-image: url("../pageimages/bckgrnd_pattern3.jpg");
+  background-size: 400px;
+}
+
+button {
+  position: absolute;
+  margin-left: 5px;
+  width: 100px;
+}
+
+.login {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+}
+
+.main-wrap {
+  padding-left: 30px;
+  margin-left: 30px;
+}/*# sourceMappingURL=bootstrap.css.map */
